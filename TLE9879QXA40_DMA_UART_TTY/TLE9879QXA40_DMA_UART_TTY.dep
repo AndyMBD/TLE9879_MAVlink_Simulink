@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>3969460744</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\tle987x.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\gpt12e.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\mon.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\tle_device.c</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\tle_device.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\lin.c</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\mon.c</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\int.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\lin.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\uart.c</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\dma.c</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\int.c</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\port.c</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\isr.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\gpt12e.c</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\wdt1.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\dma.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\pmu.c</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\pmu.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\bootrom.c</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\bootrom.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\scu.c</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\scu.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\sfr_access.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\startup_tle987x.s</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\port.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\isr.c</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\cmsis_misra.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\uart.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\system_tle987x.c</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\system_tle987x.h</file>
+            <file>$PROJ_DIR$\app\main.c</file>
+            <file>$PROJ_DIR$\app\Sin_Table.h</file>
+            <file>$PROJ_DIR$\app\write.c</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\wdt1.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\TLE9879SerialRtiostream-ProfilerTimer.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\app\RTIOStream\TLE9879SerialRtiostream-DevInit.c</file>
+            <file>$PROJ_DIR$\app\RTIOStream\TLE9879SerialRtiostream-Rtiostream.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\app\RTIOStream\TLE9879SerialRtiostream-ProfilerTimer.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_tle987x.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\wdt1.o</file>
+            <file>$PROJ_DIR$\app\Mavlink\TLE9879_MAVlink\TLE9879_MAVlink.h</file>
+            <file>$PROJ_DIR$\app\Mavlink\protocol.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\lin.o</file>
+            <file>C:\Users\shun\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\write.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\TLE9879QXA40_DMA_UART_TTY.pbd</file>
+            <file>C:\Users\shun\IAR-CMSIS-Packs\Infineon\TLE987x_DFP\1.5.2\Device\Include\types.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\LowLevelIOInterface.h</file>
+            <file>$PROJ_DIR$\app\Mavlink\TLE9879_MAVlink\version.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\pmu.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\int.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\wdt1.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\lin.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\wdt1.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_tle987x.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpt12e.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\app\Mavlink\TLE9879_MAVlink\mavlink_msg_pmsm_status.h</file>
+            <file>$PROJ_DIR$\app\Mavlink\mavlink_types.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\write.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\config\linker\Infineon\tle9879.icf</file>
+            <file>$PROJ_DIR$\app\Mavlink\TLE9879_MAVlink\mavlink.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\scu_defines.h</file>
+            <file>$PROJ_DIR$\app\Mavlink\mavlink_conversions.h</file>
+            <file>$PROJ_DIR$\app\Mavlink\mavlink_helpers.h</file>
+            <file>$PROJ_DIR$\app\Mavlink\TLE9879_MAVlink\mavlink_msg_pmsm_command.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\pmu_defines.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\port_defines.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\dma_defines.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\int_defines.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\mon_defines.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\tle_variants.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\types.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\gpt12e_defines.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\lin_defines.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\uart_defines.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\bsl_defines.h</file>
+            <file>$PROJ_DIR$\RTE\Device\TLE9879QXA40\isr_defines.h</file>
+            <file>$PROJ_DIR$\RTE\RTE_Components.h</file>
+            <file>$PROJ_DIR$\app\Mavlink\checksum.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\scu.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\write.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_tle987x.o</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.xcl</file>
+            <file>C:\Users\shun\IAR-CMSIS-Packs\Infineon\TLE987x_DFP\1.5.2\Device\Include\tle987x.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\mon.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\int.xcl</file>
+            <file>$PROJ_DIR$\Debug\List\TLE9879QXA40_DMA_UART_TTY.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\isr.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\port.__cstat.et</file>
+            <file>C:\Users\shun\IAR-CMSIS-Packs\Infineon\TLE987x_DFP\1.5.2\Device\Include\tle_device.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\port.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\tle_device.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\pmu.__cstat.et</file>
+            <file>C:\Users\shun\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\isr.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\TLE9879QXA40_DMA_UART_TTY.out</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpt12e.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\scu.xcl</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\isr.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\mon.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\pmu.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpt12e.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\dma.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\dma.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\TLE9879SerialRtiostream-DevInit.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\TLE9879SerialRtiostream-Rtiostream.xcl</file>
+            <file>C:\Users\shun\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\bootrom.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\tle_device.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_tle987x.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>C:\Users\shun\IAR-CMSIS-Packs\Infineon\TLE987x_DFP\1.5.2\Device\Include\system_tle987x.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yfuns.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\int.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\scu.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\bootrom.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\dma.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\port.xcl</file>
+            <file>C:\Users\shun\IAR-CMSIS-Packs\Infineon\TLE987x_DFP\1.5.2\Device\Include\tle_variants.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\mon.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\bootrom.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\tle_device.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\lin.xcl</file>
+            <file>C:\Users\shun\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_iccarm.h</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 107 97</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\tle_device.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 144</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 102</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 126</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 4 80 0 124 132 67 108 130 54 106 104 46 146 117 30 81 87 20 15 22 23 71 18 1 82 7 13 8 2 25 27 28 84 16 77</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\lin.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 145</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 8 0 124 132 67 108 130 54 106 104 46 146 117 30 81 23 83</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\mon.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 141</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 114</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 95</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2 0 124 132 67 108 130 54 106 104 46 146 117 30 81 23 15 79 87</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 116</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 93</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 28 0 124 132 67 108 130 54 106 104 46 146 117 30 81 84 23 15 71 129 64</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 120</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 121</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 138</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 16 0 124 132 67 108 130 54 106 104 46 146 117 30 81 77 23 80</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\int.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 56</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 135</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 96</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 7 0 124 132 67 108 130 54 106 104 46 146 117 30 81 80 23 78 71 87</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\port.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 101</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 99</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 139</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 25 0 124 132 67 108 130 54 106 104 46 146 117 30 81 27 23 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\gpt12e.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 109</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 118</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 1 0 124 132 67 108 130 54 106 104 46 146 117 30 81 23 82</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\pmu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 115</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 103</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 53</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 0 124 132 67 108 130 54 106 104 46 146 117 30 81 23 15 27 75 87</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\bootrom.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 142</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 125</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 137</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 20 81 132 67 108 130 54 106 87 15 0 124 104 46 146 117 30 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\scu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 136</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 89</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 110</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 22 0 124 132 67 108 130 54 106 104 46 146 117 30 81 23 71 15 8 20 87 75 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\startup_tle987x.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 91</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\isr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 98</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 113</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 105</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 4 80 0 124 132 67 108 130 54 106 104 46 146 117 30 81 87 20 15 22 23 71 18 1 82 7 13 8 2 25 27 28 84 16 77 78 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\system_tle987x.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 0 124 132 67 108 130 54 106 104 46 146 117 30 81 85 22 23 71 15 80 87</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\app\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 119</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 143</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 128</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 100 140 94 124 132 67 108 130 54 106 104 46 146 117 131 50 87 20 81 15 0 22 23 71 18 1 82 7 80 13 8 2 25 27 28 84 16 77 129 64 70 52 43 44 134 48 66 73 88 72 63 55 65 74 32</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\app\write.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 47</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 133 51 64 67 108 130 54 106 28 0 124 132 104 46 146 117 30 81 84 23</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\wdt1.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 60</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 15 81 132 67 108 130 54 106 0 124 104 46 146 117 30 71</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\app\RTIOStream\TLE9879SerialRtiostream-DevInit.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 122</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\app\RTIOStream\TLE9879SerialRtiostream-Rtiostream.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 123</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 39 67 108 130 54 106 64 36 129</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\app\RTIOStream\TLE9879SerialRtiostream-ProfilerTimer.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\TLE9879QXA40_DMA_UART_TTY.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 97</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 69 142 120 62 56 98 45 119 141 115 101 136 91 41 144 58 42 90 92 112 147 111</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\tle_device.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\lin.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\mon.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\uart.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\dma.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\int.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\port.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\gpt12e.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\pmu.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\bootrom.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\scu.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\isr.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\system_tle987x.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\app\main.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\app\write.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\RTE\Device\TLE9879QXA40\wdt1.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

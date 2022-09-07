@@ -1,0 +1,19 @@
+gpt12e.pbi: \
+  D:\Mavlink\TLE9879_Mavlink\TLE9879QXA40_DMA_UART_TTY\RTE\Device\TLE9879QXA40\gpt12e.c \
+  D:\Mavlink\TLE9879_Mavlink\TLE9879QXA40_DMA_UART_TTY\RTE\Device\TLE9879QXA40/gpt12e.h \
+  D:\Mavlink\TLE9879_Mavlink\TLE9879QXA40_DMA_UART_TTY\RTE\Device\TLE9879QXA40/tle987x.h \
+  C:/Users/shun/IAR-CMSIS-Packs/ARM/CMSIS/5.8.0/\CMSIS\Core\Include\core_cm3.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdint.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Config_Normal.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Product.h \
+  C:/Users/shun/IAR-CMSIS-Packs/ARM/CMSIS/5.8.0/\CMSIS\Core\Include/cmsis_version.h \
+  C:/Users/shun/IAR-CMSIS-Packs/ARM/CMSIS/5.8.0/\CMSIS\Core\Include/cmsis_compiler.h \
+  C:/Users/shun/IAR-CMSIS-Packs/ARM/CMSIS/5.8.0/\CMSIS\Core\Include\cmsis_iccarm.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\iccarm_builtin.h \
+  D:\Mavlink\TLE9879_Mavlink\TLE9879QXA40_DMA_UART_TTY\RTE\Device\TLE9879QXA40/system_tle987x.h \
+  D:\Mavlink\TLE9879_Mavlink\TLE9879QXA40_DMA_UART_TTY\RTE\Device\TLE9879QXA40/types.h \
+  D:\Mavlink\TLE9879_Mavlink\TLE9879QXA40_DMA_UART_TTY\RTE\Device\TLE9879QXA40/sfr_access.h \
+  D:\Mavlink\TLE9879_Mavlink\TLE9879QXA40_DMA_UART_TTY\RTE\Device\TLE9879QXA40/gpt12e_defines.h

@@ -1,0 +1,10 @@
+/********************************************************************************/
+/** DMA: Send out a 'Hello World!' string at UART2 triggered by DMA            **/
+/********************************************************************************/
+/** In a terminal window set up a serial connection @115.2kBaud through the    **/
+/** debugger port.                                                             **/
+/** The Core timer 3 of GPT12E triggers a DMA transfer (DMA_CH12) every 100us. **/
+/** The DMA takes one character out of the "uart_tx_data' string and puts it   **/
+/** into the send buffer of UART2.                                             **/
+/** The UART2 sends out the data at P1.1/P1.2 @115.2kBaud.                     **/
+/********************************************************************************/

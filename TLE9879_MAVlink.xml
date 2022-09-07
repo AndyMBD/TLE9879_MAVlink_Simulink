@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<mavlink>
+  <version>3</version>
+  <messages>
+    <message id="0" name="PMSM_Status">
+      <description>PMSM status upload</description>
+      <field type="float" name="Battery_Voltage">Battery Voltage</field>
+      <field type="float" name="Phase_Current_U">Phase current U</field>
+      <field type="float" name="Phase_Current_V">Phase current V</field>
+      <field type="float" name="Phase_Current_W">Phase current W</field>
+      <field type="float" name="T1">SVPWM T1</field>
+      <field type="float" name="T2">SVPWM T2</field>
+      <field type="uint8_t" name="Sector">SVPWM Sector</field>
+    </message>
+    <message id="1" name="PMSM_Command">
+      <description>PMSM command control</description>
+      <field type="char" name="Direction">Motor Direction</field>
+      <field type="uint8_t" name="Speed">Motor Speed</field>
+    </message>
+  </messages>
+</mavlink>

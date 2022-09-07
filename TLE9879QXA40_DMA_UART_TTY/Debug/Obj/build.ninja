@@ -1,0 +1,46 @@
+#Generating source browse information for project TLE9879QXA40_DMA_UART_TTY
+
+
+#Abbreviations
+cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\SourceIndexer.exe
+ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\PbdLink.exe
+bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build main.pbi : index main.xcl
+build write.pbi : index write.xcl
+build system_tle987x.pbi : index system_tle987x.xcl
+build tle_device.pbi : index tle_device.xcl
+build bootrom.pbi : index bootrom.xcl
+build dma.pbi : index dma.xcl
+build gpt12e.pbi : index gpt12e.xcl
+build int.pbi : index int.xcl
+build isr.pbi : index isr.xcl
+build lin.pbi : index lin.xcl
+build mon.pbi : index mon.xcl
+build pmu.pbi : index pmu.xcl
+build port.pbi : index port.xcl
+build scu.pbi : index scu.xcl
+build uart.pbi : index uart.xcl
+build wdt1.pbi : index wdt1.xcl
+build TLE9879QXA40_DMA_UART_TTY_part0.pbi : link main.pbi write.pbi system_tle987x.pbi tle_device.pbi
+build TLE9879QXA40_DMA_UART_TTY_part1.pbi : link bootrom.pbi dma.pbi gpt12e.pbi int.pbi
+build TLE9879QXA40_DMA_UART_TTY_part2.pbi : link isr.pbi lin.pbi mon.pbi pmu.pbi
+build TLE9879QXA40_DMA_UART_TTY_part3.pbi : link port.pbi scu.pbi uart.pbi wdt1.pbi
+build TLE9879QXA40_DMA_UART_TTY.pbd : link TLE9879QXA40_DMA_UART_TTY_part0.pbi TLE9879QXA40_DMA_UART_TTY_part1.pbi TLE9879QXA40_DMA_UART_TTY_part2.pbi TLE9879QXA40_DMA_UART_TTY_part3.pbi
+build TLE9879QXA40_DMA_UART_TTY.pbw : browsedata TLE9879QXA40_DMA_UART_TTY.pbd
+
+
